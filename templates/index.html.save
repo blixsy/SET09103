@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Sketchbook:3</title>
+  <link rel="stylesheet" hrefs" type="text/css">
+</head>
+<body>
+  <div class="body">
+    <h1 id="titletext">Blaine's University Scrapbook!!</h1>
+    <div id="Scrapbook" >
+      <div class="image-container">
+       <img src="../static/images/BookFront.png" alt="Front Of Scrapbook" id="BookFront" class="page" onclick="turnPage('Intro')">
+        <img src="../static/images/Bookpg1.png" alt="Introduction Page" id="Intro" class="hidden page" onclick="turnPage('Bday')">
+        <img src="../static/images/Bookbday.png" alt="Birthday Page" id="Bday" class="hidden page" onclick="turnPage('Halloween')">
+        <img src="../static/images/Bookhlwn.png" alt="Halloween Page" id="Halloween" class="hidden page" usemap="#image-map">>
+		
+        <img src="../static/images/STT.png" alt="Timeline Skipper" id="STT" usemap="#timelineskip">
+			
+        <div id="timelines">
+            <h2 class="seasontext clickable" onclick="turnPage('Intro')">Introduction</h2>
+			<br>
+			<h2 class="seasontext clickable" onclick="turnPage('Bday')">Birthday</h2>
+			<br>
+			<h2 class="seasontext clickable" onclick="turnPage('Halloween')">Halloween</h2>
+			<br>
+			<h2 class="seasontext clickable" onclick="turnPage('BookFront')">Cover Page</h2>
+        </div>
+      </div>
+   
+				<map name="image-map">
+					  <area shape="rect" coords="175,86,308,334" onclick="openModal('2021Halloween')" alt="2021Halloween">
+					  <area shape="rect" coords="350,281,460,474" onclick="openModal('2023Halloween')" alt="2023Halloween">
+				</map>
+   
+			<div id="myModal" class="modal">
+			  <span class="close" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+					<div class="image-gallery-container">
+      <div id="popupContent" class="image-gallery"></div>
+					<img src="../static/images/2021.1.JPG" alt="Image 1">
+					<img src="../static/images/2021.2.JPG" alt="Image 2">
+					<img src="../static/images/2021.3.JPG" alt="Image 3">
+					<img src="../static/images/2021.4.JPG" alt="Image 4">
+					<img src="../static/images/2021.5.JPG" alt="Image 5">
+					<img src="../static/images/2021.6.JPG" alt="Image 6">
+					<img src="../static/images/2021.7.JPG" alt="Image 7">
+					<img src="../static/images/2021.8.JPG" alt="Image 8">
+					<img src="../static/images/2021.9.JPG" alt="Image 9">
+					</div>
+				</div>
+			</div>
+	</div>
+	<script src="../static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+	min-height: 100%;
+    max-width: 100%;
+	background-color:rgb(253, 200, 218);
+	margin-left: 5%;
+}
+#titletext{
+	color:rgb(255, 255, 255);
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 64px;
+}
+
+
+#Scrapbook{
+	text-align:left;
+	 float: left;
+	 width: 90%;
+	 height: 60%;
+	 display: flex; 
+	
+
+}
+
+#image-container {
+    display: flex; 
+	position: relative;
+	
+	
+}
+#BookFront {
+    width: 60%; 
+    height: 90%; 
+	margin-right: 100px;
+	top: 8%; 
+	z-index: 1;
+}
+
+#STT {
+    width: 30%;
+    height: 89%;
+    position: absolute;
+    right: 5%; 
+    top: 10%; 
+	
+	
+}
+#timelines {
+  position: absolute;
+  float: right;
+  top: 50%;
+  left: 53%;
+  transform: translate(100%, -35%);
+  text-align: center;
+  color: white; 
+   z-index: 1; 
+   
+  
+}
+
+.seasontext {
+	margin-bottom: 10%; 
+	margin-top: 10%;
+	font-size: 400%;
+
+	
+	
+}
+
+/* Hide all pages by default */
+.page {
+	display: none;
+	width: 60%; 
+    height: 90%; 
+	margin-right: 100px;
+	top: 8%; 
+	position: absolute;
+    z-index: 0; 
+}
+
+/* Display the current page */
+.page:not(.hidden) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 90%;
+    margin-right: 100px;
+	top: 8%; 
+    z-index: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  margin-top: 10%;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.image-gallery-container {
+  width: 90%; 
+  max-width: 700px; 
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  z-index: 2;
+  max-height: 400px;
+  background-color: white;
+}
+
+.image-gallery-container img {
+  width: calc(33.33% - 1px);
+  height: auto;
+  margin: 5px; 
+  display: inline-block; 
+  vertical-align: top; 
+  box-sizing: border-box; 
+}

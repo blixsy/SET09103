@@ -1,0 +1,52 @@
+2023-11-29 15:07:18,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://146.176.251.139:8080
+2023-11-29 15:07:18,678 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-29 15:07:30,518 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:30] "GET /unauthorized HTTP/1.1" 200 -
+2023-11-29 15:07:43,494 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:43] "GET / HTTP/1.1" 200 -
+2023-11-29 15:07:46,856 - INFO - Blaine signed in.
+2023-11-29 15:07:46,856 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-11-29 15:07:46,931 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:46] "GET /index HTTP/1.1" 200 -
+2023-11-29 15:07:47,101 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,102 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,104 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/BookFront.png HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,105 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/Bookpg1.png HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,106 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/Bookbday.png HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,128 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/Bookhlwn.png HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,230 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/STT.png HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,232 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.1.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,236 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.2.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,239 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.3.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,240 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.4.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,268 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.5.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,371 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.6.jpg HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,377 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.7.jpg HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,392 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.8.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:07:47,396 - INFO - 90.205.245.179 - - [29/Nov/2023 15:07:47] "[36mGET /static/images/AdvWebTech/images/2021.9.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:36:56,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://146.176.251.139:8080
+2023-11-29 15:36:56,151 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-29 15:37:23,904 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:23] "[32mGET /index HTTP/1.1[0m" 302 -
+2023-11-29 15:37:23,941 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:23] "GET / HTTP/1.1" 200 -
+2023-11-29 15:37:45,432 - INFO - Blaine signed in.
+2023-11-29 15:37:45,433 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-11-29 15:37:45,477 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "GET /index HTTP/1.1" 200 -
+2023-11-29 15:37:45,565 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,572 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/BookFront.png HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,573 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/Bookpg1.png HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,574 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/Bookbday.png HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,576 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/Bookhlwn.png HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,629 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/STT.png HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,636 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,641 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.1.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,642 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.2.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,643 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.3.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,694 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.4.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,700 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.5.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,706 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.6.jpg HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,708 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.7.jpg HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,709 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.8.JPG HTTP/1.1[0m" 304 -
+2023-11-29 15:37:45,818 - INFO - 90.205.245.179 - - [29/Nov/2023 15:37:45] "[36mGET /static/images/AdvWebTech/images/2021.9.JPG HTTP/1.1[0m" 304 -
