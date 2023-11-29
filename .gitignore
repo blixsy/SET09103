@@ -1,0 +1,8 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environment directories
+static/Website/bin/
+
+# Ignore specific files
+.user_actions.log.swp
