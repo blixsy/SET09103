@@ -6,7 +6,7 @@
 <body>
     <h1>Uh oh! Your attempt to access was denied :((((</h1>
     <p>Retry your spelling or contact me to check for errors! Thanks doll x</p>
-    <!-- Add your silly GIF here -->
+    
     <img src="{{ url_for('static', filename='images/silly.gif') }}" alt="Silly GIF">
 </body>
 </html>
